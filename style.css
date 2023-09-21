@@ -167,18 +167,20 @@ nav ul li {
 }
 
 .img-article {
-    height: 60%;
-    width: auto;
+    height: 80vh;
+    width: 45%;
 }
 
 .img-article img {
     border-radius: 30px;
-    height: 80%;
-    width: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .text-article {
     line-height: 2;
+    width: 60%;
 }
 
 .text-article h1 {
