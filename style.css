@@ -21,6 +21,11 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -114,6 +119,7 @@ header {
 
 article {
     background-color: #b39e9f;
+    height: 100%;
 }
 
 nav ul {
@@ -129,8 +135,10 @@ nav ul li {
     color: #ddd0d1;
 }
 
-nav {
+.sticky-nav {
     position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .barre {
@@ -138,6 +146,10 @@ nav {
     height: 4px;
     background-color: black;
     margin: 0 0 30px 0;
+}
+
+.barre-nav {
+    margin: 0;
 }
 
 .article-about {
@@ -154,12 +166,26 @@ nav {
     margin: 40px 0;
 }
 
-.article-about img {
+.img-article {
+    height: 60%;
+    width: auto;
+}
+
+.img-article img {
+    border-radius: 30px;
     height: 80%;
     width: auto;
-    border-radius: 30px;
 }
 
 .text-article {
     line-height: 2;
+}
+
+.text-article h1 {
+    line-height: 1.1;
+}
+
+.article-p {
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
