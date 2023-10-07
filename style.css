@@ -187,6 +187,10 @@ nav ul li {
     line-height: 1.1;
 }
 
+.text-article p {
+    text-align: left;
+}
+
 .article-p {
     padding-top: 100px;
     padding-bottom: 30px;
